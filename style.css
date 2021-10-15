@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&family=Scheherazade+New:wght@700&display=swap');
+header h1{
+    text-align: center;
+    font-family: 'Bebas Neue',cursive;
+    font-size: 40px;
+    letter-spacing: 3px;
+    animation: titulo 1s ease infinite alternate;
+}
+@keyframes titulo{
+    0%{
+        color:rgb(255, 255, 255);
+    }
+    50%{
+        color: rgb(237, 255, 199);
+    }
+    100%{
+        color: rgb(255, 246, 167);
+    }
+}
+header {
+    background-color: red;
+    padding: 20px;
+}
+ul{
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li {
+    color: white;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+}
+nav li:hover{
+    font-size: 25px;
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color:rgb(125, 160, 255);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#noticia1 {
+    margin-right: 700px;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 30px;
+    margin: 0%;
+    font-family: 'Roboto Mono', monospace;
+}
+h2 {
+    font-size: 17px;
+    margin: 0%;
+    font-family: 'Scheherazade New', serif;
+}
+p{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif 
+}
+.caminhao {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    
+}
+#anuncios {
+    margin-right: 700px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.vende-se {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+    
+}
+footer{
+    background-color: red;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.sedentario {
+    width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+#Esportes{
+    margin-bottom: 100px;
+    margin-top: 0%
+}
+    

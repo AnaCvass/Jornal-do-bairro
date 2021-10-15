@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+header h1{
+    font-family: 'Bebas Neue',cursive;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+header h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+h2:hover{
+    font-size: 25px;
+}
+header{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(53, 53, 255);
+}
+.casas {
+    float: left;
+    width: 200px;
+}
+#dois {
+    margin-right: 700px;
+    margin-top: 120px;
+}
+#tres {
+    margin-top: 130px;
+}
